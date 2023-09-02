@@ -1,12 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-div {
+.container-box {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    
 }
 .container {
     border: solid ;
@@ -14,13 +13,13 @@ div {
     border-color: grey;
     border-radius: 5px;
     box-shadow: 0 0 7px gray;
-    height: 250px;
-    width: 500px;
+    min-height: 250px;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+  
 }
 input[type=text] {
     border:none;
