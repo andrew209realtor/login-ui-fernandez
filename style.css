@@ -1,3 +1,15 @@
-p {
-    background-color: blueviolet;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    border: solid ;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    box-shadow: 0 0 7px gray;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
